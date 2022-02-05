@@ -18,4 +18,5 @@ console.log( `       ask1 = ${ask1}, ask1 will be undefined here`)
 
 console.log( `LINE 3 => ${generator.next(4).value}` ); // "3 * 3 = ?"
 console.log( `       ask2 = ${ask2}, ask2 will be undefined here`)
+
 console.log( `LINE 5 => ${generator.next(9).done}` ); // true
